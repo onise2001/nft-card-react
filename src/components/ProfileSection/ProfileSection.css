@@ -1,0 +1,26 @@
+.profice-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+.profice-section img {
+  width: 33px;
+  height: 33px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+}
+
+.username {
+  color: #8bacd9;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.username span {
+  color: #fff;
+}
+.username span:hover {
+  cursor: pointer;
+  color: #00fff8;
+}

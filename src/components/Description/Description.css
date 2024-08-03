@@ -1,0 +1,40 @@
+.nft-info h2 {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+.nft-info h2:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+.nft-description {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.44;
+  color: #8bacd9;
+}
+.nft-auction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.6rem 0;
+  border-bottom: 1px solid #2e405a;
+  padding-bottom: 1.6rem;
+}
+
+.nft-auction div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.price-text {
+  font-size: 1.5rem;
+  color: #00fff8;
+}
+
+.time-text {
+  color: #8bacd9;
+  font-size: 1.5rem;
+}

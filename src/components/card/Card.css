@@ -1,0 +1,26 @@
+.card {
+  background-color: #15263f;
+  border-radius: 15px;
+  max-width: 350px;
+  padding: 2.4rem 2.4rem 3.1rem;
+}
+
+.nft-image {
+  max-width: 100%;
+}
+.image-wrapper {
+  border-radius: 8px;
+  margin-bottom: 24px;
+  max-width: 100%;
+}
+
+.nft-image:hover {
+  opacity: 0.5;
+}
+.image-wrapper:hover {
+  background-color: rgba(0, 255, 248, 0.5);
+  background-image: url("./images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
